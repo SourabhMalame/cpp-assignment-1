@@ -1,3 +1,8 @@
+
+/*
+WAP to input price,qty and create a fuction calculate() with arguments which accepts the price and qty
+and calculates Bill amount. Return the bill ammount. Display Total.
+*/
 #include <iostream>
 
 // Function to calculate the bill amount

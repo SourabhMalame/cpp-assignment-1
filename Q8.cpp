@@ -1,31 +1,23 @@
-// WAP to display the minimum value among the array values.
-
 #include <iostream>
 
-void findMinimum(int arr[], int size) {
-    int minVal = arr[0];
+using namespace std;
 
-    for (int i = 1; i < size; ++i) {
-        if (arr[i] < minVal) {
-            minVal = arr[i];
+int main() {
+    const int size = 5;  // Adjust the size according to your array size
+    int arr[size] = {5, 2, 8, 1, 7};
+
+    // Find the minimum value
+    int minValue = arr[0]; // Assume the first element as the minimum
+
+    for (int i = 1; i < size; i++) {
+        if (arr[i] < minValue) {
+            minValue = arr[i];
+            cout <<  "\n "<< minValue << "\n";
         }
     }
 
-    std::cout << "Minimum value in the array: " << minVal << std::endl;
-}
-
-int main() {
-    const int size = 5;  // You can change the size as per your requirement
-    int arr[size];
-
-    // Input values into the array
-    std::cout << "Enter " << size << " integer values:\n";
-    for (int i = 0; i < size; ++i) {
-        std::cin >> arr[i];
-    }
-
-    // Find and display the minimum value in the array
-    findMinimum(arr, size);
+    // Display the minimum value
+    cout << "Minimum value in the array: " << minValue << endl;
 
     return 0;
 }

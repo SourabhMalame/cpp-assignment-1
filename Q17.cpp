@@ -1,3 +1,9 @@
+/*
+WAP to create a class branch with data members branch ID, branch Name, Branch City and member
+functions as getdata() and Display()
+
+*/
+
 #include <iostream>
 #include <string>
 

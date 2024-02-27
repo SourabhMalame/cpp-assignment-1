@@ -1,3 +1,9 @@
+/*
+WAP to create a class population with data members city and totalpopulation & member functions
+getdata() with arguments which accepts the values. Create 3 objects and Display the name of city which
+has maximum number of population
+*/
+
 #include <iostream>
 #include <string>
 
